@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* General button styles */
+.btn-custom {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-custom .glyphicon {
+    margin-right: 8px;
+}
+
+/* Primary button styles */
+.btn-primary-custom {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Search button specific styles */
+.btn-search {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-search:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Add Product button specific styles */
+.btn-add-product {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-add-product:hover {
+    background-color: #117a8b;
+    transform: scale(1.05);
+}
+
+/* Align buttons to the right */
+.pull-right {
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,112 @@
+
+.add {
+  border-radius: 15px;
+  background-color: #8ecae6;
+  background: linear-gradient(145deg, #8ecae6, #219ebc);
+  display: inline-block;
+  padding: 15px 25px;
+  width: 150px; /* Set a fixed width */
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+.add:hover {
+  background-color: #3e8e41;
+  background: linear-gradient(145deg, #3e8e41, #2a7c31); /* Updated gradient on hover */
+}
+
+.add:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.inventory {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inventory td, .inventory th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.inventory tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.inventory tr:hover {
+  background-color: #8ecae6;
+}
+
+.inventory th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #023047;
+  color: #fff; /* Changed color for visibility */
+}
+
+h1 {
+  text-align: center;
+}
+.btn-custom {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-custom .glyphicon {
+  margin-right: 8px;
+}
+
+/* Primary button styles */
+.btn-primary-custom {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Search button specific styles */
+.btn-search {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-search:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Add Product button specific styles */
+.btn-add-product {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-add-product:hover {
+  background-color: #117a8b;
+  transform: scale(1.05);
+}
+
+/* Align buttons to the right */
+.pull-right {
+  float: right;
+  margin-left: 10px;
+}
